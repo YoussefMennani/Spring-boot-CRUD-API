@@ -56,6 +56,7 @@ public class StudentService {
                throw new IllegalStateException("email taken");
             }
             student.setName(email);
+            
         }
 
     }
